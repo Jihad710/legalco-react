@@ -21,7 +21,7 @@ const Cyberbullies = () => {
 							</p>
 							<div className="flex mt-3">
 								<Link
-									href="/appointment"
+									to="/appointment"
 									className="bg-[#225559] hover:bg-transparent border-2 border-transparent hover:border-[#225559] text-white hover:text-[#35868b] py-2 px-6 rounded-full duration-300"
 								>
 									Get Consultancy

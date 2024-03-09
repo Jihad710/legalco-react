@@ -69,11 +69,7 @@ const Footer = () => {
 									Home
 								</Link>
 							</li>
-							<li>
-								<Link onClick={() => window.scrollTo(0, 0)} to="/services" className="text-[14px] hover:underline">
-									Services
-								</Link>
-							</li>
+							
 							<li>
 								<Link onClick={() => window.scrollTo(0, 0)} to="/appointment" className="text-[14px] hover:underline">
 									Appointment
@@ -87,7 +83,7 @@ const Footer = () => {
 							<li>
 								<Link
 									onClick={() => window.scrollTo(0, 0)}
-									to="/privacy-and-policy"
+									to="/privacyandpolicy"
 									className="text-[14px] hover:underline"
 								>
 									Privacy and Policy

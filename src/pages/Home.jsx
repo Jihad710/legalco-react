@@ -3,8 +3,8 @@ import Ads from '../components/Home/Ads';
 import Banner from '../components/Home/Banner';
 import Services from '../components/Home/Services';
 import Cyberbullies from '../components/Home/Cyberbullies';
-import LawyerSection from '../components/Home/LawyerSection';
-import HappyClient from '../components/Home/HappyClient';
+// import LawyerSection from '../components/Home/LawyerSection';
+// import HappyClient from '../components/Home/HappyClient';
 import PageMetaData from '../Common/PageMetaData';
 
 const Home = () => {
@@ -29,9 +29,9 @@ const Home = () => {
 			<Banner />
 			<Ads />
 			<Services />
-			<LawyerSection />
+			{/* <LawyerSection /> */}
 			<Cyberbullies />
-			<HappyClient />
+			{/* <HappyClient /> */}
 			{/* Terms and Condition  */}
 			{confirm && (
 				<div className="w-full h-screen bg-[#23232380] bg-opacity-50 z-40 fixed top-0 left-0 flex items-center justify-center">
